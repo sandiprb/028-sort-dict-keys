@@ -1,2 +1,3 @@
 def solution(dic):
-    """Enter Code Here"""
+    output = [k for k,v in dic.iteritems()]
+    return output
